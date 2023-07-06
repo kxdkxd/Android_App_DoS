@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serial" />
+
+    <Button
+        android:id="@+id/btn_parcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parcel" />
+
+    <Button
+        android:id="@+id/btn_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="String" />
+
+    <Button
+        android:id="@+id/btn_safe_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SafeSerial" />
+
+    <Button
+        android:id="@+id/btn_arraylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArrayList" />
+
+    <Button
+        android:id="@+id/btn_classcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ClassCast" />
+
+    <Button
+        android:id="@+id/btn_intent_get_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IntentGetAction" />
+</LinearLayout>
