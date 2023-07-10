@@ -7,6 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -63,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
         });
         btnClassCast.setOnClickListener(v -> {
             Intent intent = new Intent();
-            intent.setClassName("com.example.denialserviceapp", "com.example.denialserviceapp.StringActivity");
-            intent.putExtra("data", new SUser());
+            intent.setClassName("com.example.denialserviceapp", "com.example.denialserviceapp.ClassCastActivity");
+            intent.putExtra("serializable_key", BigInteger.valueOf(1));
             startActivity(intent);
         });
 
